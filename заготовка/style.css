@@ -1,0 +1,48 @@
+div {
+    display: block;
+}
+#wrapper {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 250px;
+    background-color: rgb(243, 196, 76);
+}
+.eye1 {
+    background-color: azure;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 70px;
+    right: 100px;
+}
+.eye2 {
+    background-color: azure;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 70px;
+    left: 100px;
+}
+.noise {
+    background-color: azure;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 200px;
+    left: 215px;
+}
+.mouth {
+    position: absolute;
+    width: 200px; 
+    height: 200px; 
+    margin: -20px 200px 20px 0px;
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 0 white;
+    bottom: 100px;
+    left: 150px;
+}
